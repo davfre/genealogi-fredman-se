@@ -207,9 +207,33 @@ li + li {
 }
 
 @media (max-width: 760px) {
+  .page-shell {
+    padding: 20px 16px 64px;
+  }
+
   .site-header {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    text-align: center;
+  }
+
+  .site-nav {
+    justify-content: center;
+  }
+
+  .hero,
+  .article-layout {
+    text-align: center;
+  }
+
+  .intro,
+  .lede {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h1 {
+    font-size: clamp(2rem, 9vw, 3rem);
   }
 
   .grid {
