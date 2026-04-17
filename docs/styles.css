@@ -86,6 +86,8 @@ h3 {
 
 h1 {
   font-size: clamp(2.6rem, 7vw, 4.5rem);
+  hyphens: auto;
+  overflow-wrap: break-word;
 }
 
 h2 {
@@ -221,6 +223,13 @@ li + li {
     justify-content: center;
   }
 
+  .brand {
+    max-width: 100%;
+    font-size: 0.95rem;
+    letter-spacing: 0.04em;
+    overflow-wrap: anywhere;
+  }
+
   .hero,
   .article-layout {
     text-align: center;
@@ -233,7 +242,8 @@ li + li {
   }
 
   h1 {
-    font-size: clamp(2rem, 9vw, 3rem);
+    font-size: clamp(1.55rem, 7.2vw, 2.2rem);
+    line-height: 1.03;
   }
 
   .grid {
