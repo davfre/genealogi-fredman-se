@@ -94,6 +94,10 @@ h2 {
   font-size: 1.4rem;
 }
 
+h3 {
+  font-size: 1.4rem;
+}
+
 .section-label,
 .card-kicker {
   margin: 0 0 10px;
@@ -156,6 +160,11 @@ li {
 .notice p,
 .card p {
   margin-top: 0;
+}
+
+.card p {
+  font-size: 1.05rem;
+  line-height: 1.7;
 }
 
 .post-card a {
@@ -232,13 +241,13 @@ li + li {
 
   .hero,
   .article-layout {
-    text-align: center;
+    text-align: left;
   }
 
   .intro,
   .lede {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   h1 {
